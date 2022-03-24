@@ -14,6 +14,12 @@
         padding: 5px 0px;
     }
     /* header top */
+
+    /* header menu */
+    .menu-top-btn{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
