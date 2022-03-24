@@ -1,18 +1,63 @@
-.top-info{}
-.top-info li:first-child{
-    border:  none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Proxima-nova;
 }
-.top-info li:last-child{
-    padding-right: 0 !important;
+/* custom font */
+@font-face {
+    font-family: Proxima-nova;
+    src: url(../font/Proxima\ Nova\ Font.otf);
 }
-.top-info li{
-    font-size:  18px;
-    color: #424242;
-    border-left: 2px solid #e2e2e2;
-    padding: 6px 15px;
-   }
-.top-info li i{}
-.top-info li a{}
-.top-info li a:hover{
+/* header css start */
+header {
+}
+.header-top {
+    background-color: #c0202f;
+    padding: 10px 0px;
+    margin: 0 auto;
+}
+/* header social icon start */
+.top-social-icon {
+    display: flex;
+    justify-content: start;
+}
+.top-social-icon a {
+    padding: 0px 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+}
+.top-social-icon a:hover{
+    color: #1c4385;
+    transform: scale(1.1);
+}
+/* header social icon end */
 
-	}
+/* emergency-call start */
+.emergency-call{
+    display: flex;
+    justify-content: center;
+}
+.emergency-call a{
+    text-decoration: none;
+    color: #ffffff !important;
+}
+/* emergency-call end */
+
+/* login-help start */
+.login-help{
+    display: flex;
+    justify-content: end;
+}
+.login-help a{
+    text-decoration: none;
+    color: #ffffff !important;
+    font-size: 17px;
+    padding: 0px 5px;
+}
+/* login-help end */
+
+
+/* header css end */
