@@ -20,6 +20,9 @@
         display: flex;
         justify-content: center;
     }
+    .hero-section {
+        min-height: 50vh;
+    }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
