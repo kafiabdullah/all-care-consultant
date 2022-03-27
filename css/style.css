@@ -117,7 +117,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    height: 80vh;
 }
 .hero-container {
     margin: 0px auto;
@@ -142,7 +142,6 @@
 }
 .hero-container h3 {
     font-size: 40px;
-    font-weight: 600;
 }
 .hero-btn {
     display: flex;
@@ -360,7 +359,7 @@
     justify-content: center;
     align-items: center;
     background-color: #4c4d4f;
-    height: 50vh;
+    padding: 50px 0px;
 }
 .newsletter-container {
     text-align: center;
@@ -392,11 +391,11 @@
 /* Footer Section */
 footer {
     background-color: #1c1e29;
-    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 50px 0px;
 }
 .contact-info {
 }
